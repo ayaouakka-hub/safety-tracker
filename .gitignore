@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# Custom Holcim Project
+# =========================
+*.jpg
+*.wav
+*.json
+data/
+*.mp4
+docs/log_localisation.csv
+
+# Ignorer les modeles d'IA lourds
+*.pt
+src/system_securite.py
+src/tracker.py
+src/face_check.py
