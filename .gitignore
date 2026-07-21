@@ -220,15 +220,22 @@ __marimo__/
 # =========================
 # Custom Holcim Project
 # =========================
+# --- Fichiers Médias & Données ---
 *.jpg
 *.wav
 *.json
-data/
 *.mp4
+data/
+!data/.gitkeep
+!data/employes_autorises/.gitkeep
+
+# --- Documents & Logs ---
 docs/log_localisation.csv
 
-# Ignorer les modeles d'IA lourds
+# --- Modèles d'IA Lourds ---
 *.pt
+models/
+!models/.gitkeep
 src/system_securite.py
 src/tracker.py
 src/face_check.py
